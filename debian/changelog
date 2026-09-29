@@ -1,3 +1,10 @@
+vplane-controller (3.7.1+elster1) unstable; urgency=medium
+
+  * Build the real controller for Elster OS (Debian 13). No source change.
+    This version supersedes the empty vyatta-controller-fake packages.
+
+ -- Erik Ziegenbalg <erikziege@gmail.com>  Tue, 29 Sep 2026 23:46:14 +0000
+
 vplane-controller (3.7.1) unstable; urgency=medium
 
   [ Neil McGill ]
