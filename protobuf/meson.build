@@ -9,7 +9,7 @@ install_data(protobuf_source,
         install_dir: get_option('datadir') / 'vyatta-dataplane' / 'protobuf'
 )
 
-protoc = find_program('protoc')
+protoc = find_program('protoc', native: true)
 
 controller_protobuf_c = custom_target('controller_protobuf_c',
         input: protobuf_source,

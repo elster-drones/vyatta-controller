@@ -23,7 +23,7 @@ Build-Depends: debhelper (>= 9),
  perl:native,
  libgoogle-protocolbuffers-perl,
  libsystemd-dev,
- golang-goprotobuf-dev,
+ golang-goprotobuf-dev:native,
  libprotobuf-dev,
  libvyatta-dataplane-proto-support,
  libjemalloc-dev <pkg.vyatta-controller.jemalloc>
